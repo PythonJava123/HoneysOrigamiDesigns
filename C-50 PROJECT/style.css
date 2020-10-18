@@ -1,0 +1,44 @@
+
+.instructions{
+
+display:flex;
+justify-content: space-between;
+
+}
+
+.header{
+
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+
+}
+
+body{
+
+    background-image: url("bg.jpg");
+    
+    }
+
+.item p{
+
+position:relative;
+top: 50%;
+left: 80%;
+transform: translate(-50%, -50%);
+opacity:0;
+
+}
+
+.item:hover p{
+
+opacity:1;
+    
+}
+    
+.item:hover img{
+    
+opacity:0.33;
+    
+}
+
